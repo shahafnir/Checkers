@@ -1,0 +1,119 @@
+﻿<!DOCTYPE HTML>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Checkers Game</title>
+    <meta name="description" content="Checkers game">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+
+<body>
+
+    <div id="container">
+
+    </div>
+</body>
+    <div class="board">
+        <table>
+            <tr>
+                <td id ="column1" class="light-background "><a id="cell11"></a></td>
+                <td id ="column2" class="dark-background"><a id="cell12"></a></td>
+                <td id ="column3" class="light-background"><a id="cell13"></a></td>
+                <td id ="column4" class="dark-background"><a id="cell14"></a></td>
+                <td id ="column5" class="light-background"><a id="cell15"></a></td>
+                <td id ="column6" class="dark-background"><a id="cell16"></a></td>
+                <td id ="column7" class="light-background"><a id="cell17"></a></td>
+                <td id ="column8" class="dark-background"><a id="cell18"></a></td>
+            </tr>
+            <tr>
+                <td id ="column1" class="dark-background"><a id="cell21"></a></td>
+                <td id ="column2" class="light-background"><a id="cell22"></a></td>
+                <td id ="column3" class="dark-background"><a id="cell23"></a></td>
+                <td id ="column4" class="light-background"><a id="cell24"></a></td>
+                <td id ="column5" class="dark-background"><a id="cell25"></a></td>
+                <td id ="column6" class="light-background"><a id="cell26"></a></td>
+                <td id ="column7" class="dark-background"><a id="cell27"></a></td>
+                <td id ="column8" class="light-background"><a id="cell28"></a></td>
+            </tr>
+            <tr id="row3">
+                <td id ="column1" class="light-background"><a id="cell31"></a></td>
+                <td id ="column2" class="dark-background"><a id="cell32"></a></td>
+                <td id ="column3" class="light-background"><a id="cell33"></a></td>
+                <td id ="column4" class="dark-background"><a id="cell34"></a></td>
+                <td id ="column5" class="light-background"><a id="cell35"></a></td>
+                <td id ="column6" class="dark-background"><a id="cell36"></a></td>
+                <td id ="column7" class="light-background"><a id="cell37"></a></td>
+                <td id ="column8" class="dark-background"><a id="cell38"></a></td>
+            </tr>
+            <tr id="row4">
+                <td id ="column1" class="dark-background"><a id="cell41"></a></td>
+                <td id ="column2" class="light-background"><a id="cell42"></a></td>
+                <td id ="column3" class="dark-background"><a id="cell43"></a></td>
+                <td id ="column4" class="light-background"><a id="cell44"></a></td>
+                <td id ="column5" class="dark-background"><a id="cell45"></a></td>
+                <td id ="column6" class="light-background"><a id="cell46"></a></td>
+                <td id ="column7" class="dark-background"><a id="cell47"></a></td>
+                <td id ="column8" class="light-background"><a id="cell48"></a></td>
+            </tr>
+            <tr id="row5">
+                <td id ="column1" class="light-background"><a id="cell51"></a></td>
+                <td id ="column2" class="dark-background"><a id="cell52"></a></td>
+                <td id ="column3" class="light-background"><a id="cell53"></a></td>
+                <td id ="column4" class="dark-background"><a id="cell54"></a></td>
+                <td id ="column5" class="light-background"><a id="cell55"></a></td>
+                <td id ="column6" class="dark-background"><a id="cell56"></a></td>
+                <td id ="column7" class="light-background"><a id="cell57"></a></td>
+                <td id ="column8" class="dark-background"><a id="cell58"></a></td>
+            </tr>
+            <tr id="row6">
+                <td id ="column1" class="dark-background"><a id="cell61"></a></td>
+                <td id ="column2" class="light-background"><a id="cell62"></a></td>
+                <td id ="column3" class="dark-background"><a id="cell63"></a></td>
+                <td id ="column4" class="light-background"><a id="cell64"></a></td>
+                <td id ="column5" class="dark-background"><a id="cell65"></a></td>
+                <td id ="column6" class="light-background"><a id="cell66"></a></td>
+                <td id ="column7" class="dark-background"><a id="cell67"></a></td>
+                <td id ="column8" class="light-background"><a id="cell68"></a></td>
+            </tr>
+            <tr id="row7">
+                <td id ="column1" class="light-background"><a id="cell71"></a></td>
+                <td id ="column2" class="dark-background"><a id="cell72"></a></td>
+                <td id ="column3" class="light-background"><a id="cell73"></a></td>
+                <td id ="column4" class="dark-background"><a id="cell74"></a></td>
+                <td id ="column5" class="light-background"><a id="cell75"></a></td>
+                <td id ="column6" class="dark-background"><a id="cell76"></a></td>
+                <td id ="column7" class="light-background"><a id="cell77"></a></td>
+                <td id ="column8" class="dark-background"><a id="cell78"></a></td>
+            </tr>
+            <tr id="row8">
+                <td id ="column1" class="dark-background"><a id="cell81"></a></td>
+                <td id ="column2" class="light-background"><a id="cell82"></a></td>
+                <td id ="column3" class="dark-background"><a id="cell83"></a></td>
+                <td id ="column4" class="light-background"><a id="cell84"></a></td>
+                <td id ="column5" class="dark-background"><a id="cell85"></a></td>
+                <td id ="column6" class="light-background"><a id="cell86"></a></td>
+                <td id ="column7" class="dark-background"><a id="cell87"></a></td>
+                <td id ="column8" class="light-background"><a id="cell88"></a></td>
+            </tr>
+        </table>
+    </div>
+    <div class="footer">
+        <h2 id="message-box" class="message-box">Hello and welcome to Nir shahaf's game</h2>
+        <h3>
+            <a id="requestDraw"></a>
+        </h3>
+        <h3>
+            <a class="new-game" href="JavaScript:void(0)" onclick="startNewGame();">New Game</a>
+        </h3>
+    </div>
+    <br><br><br>
+    <h2>
+        <a class="wiki" href="https://en.wikipedia.org/wiki/English_draughts" target="_blank">English draughts rules</a>
+    </h2>
+    </div>
+</body>
+<script src="checkers.js"></script>
+</body>
+
+</html>

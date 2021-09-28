@@ -1,0 +1,120 @@
+div.board {
+    width: fit-content;
+    margin: 0 auto 0 auto;
+    padding: 5px;
+    background-color: black;
+    border-radius: 10px;
+}
+
+.footer {
+    width: fit-content;
+    margin: 0 auto 0 auto;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+td {
+    width: 80px;
+    height: 80px;
+    display: inline-block;
+    border: 1.2px solid black;
+}
+
+td.light-background {
+    background-color: lavenderblush;
+}
+
+td.dark-background {
+    background-color: maroon;
+}
+
+a {
+    display: block;
+}
+
+.piece, .gold-ring, .possible-capture {
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;
+    border: 4px solid dimgray;
+    margin: 4px 3px 4px 3px;
+}
+
+.vacant, .possible_capturer {
+    display: block;
+}
+
+.dynamic:hover, a.new-game:hover, .gold-ring {
+    border-color: gold;
+}
+
+.possible-capture {
+    border-color: pink;
+}
+
+.dynamic:active {
+    border-color: gold;
+}
+
+.black-piece {
+    background-color: black;
+}
+
+.white-piece {
+    background-color: seashell;
+}
+
+.king {
+    width: 51px;
+    height: 51px;
+    border-style: double;
+    border-width: 11px;
+}
+
+h3, h2 {
+    width: fit-content;
+    font-family: helvetica;
+    font-size: 1em;
+    font-weight: 400;
+    display: block;
+    text-align: center;
+    margin: 0 auto 0 auto;
+    background-color: white;
+    color: white;
+    padding: 0;
+}
+
+h2 {
+    color: black;
+    font-size: 1.2em;
+}
+
+a.new-game, a.request-draw {
+    display: block;
+    background-color: maroon;
+    padding: 2.5px 16px 3px 16px;
+    border-radius: 11px;
+    border-style: solid;
+    border-width: 3px;
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+    text-align: center;
+}
+
+a.request-draw {
+    padding: 2.5px 7px 3px 7px;
+}
+
+a.wiki {
+    text-decoration: none;
+    color: maroon;
+    font-size: .8em;
+}
+
+.message-box {
+    margin-top: 6px;
+    margin-bottom: 10px;
+}
